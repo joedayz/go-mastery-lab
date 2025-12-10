@@ -1,0 +1,25 @@
+# ============================================================================
+# DOCKER CON DISTROLESS
+# ============================================================================
+# Distroless es más seguro que scratch (tiene certificados SSL)
+# Pero sigue siendo muy pequeña
+# ============================================================================
+
+FROM golang:1.21-alpine AS builder
+
+WORKDIR /app
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN CGO_ENABLED=0 GOOS=linux go build -o app ./cmd/api
+
+# Usar distroless (más seguro que scratch)
+FROM gcr.io/distroless/static-debian11:nonroot
+
+WORKDIR /
+COPY --from=builder /app/app /app
+
+EXPOSE 8080
+
+ENTRYPOINT ["/app"]
+
