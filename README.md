@@ -5,9 +5,8 @@ Laboratorio completo de dominio avanzado de Go para desarrolladores que buscan a
 ## 📋 Tabla de Contenidos
 
 ### 🎯 Guías de Inicio
-- **[LEARNING_PATH.md](LEARNING_PATH.md)** ⭐ **EMPIEZA AQUÍ** - Orden recomendado paso a paso
-- **[INSTALLATION.md](INSTALLATION.md)** - Cómo instalar Go
-- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Conceptos clave para desarrolladores Java
+- **[QUICK_START.md](QUICK_START.md)** ⭐ **EMPIEZA AQUÍ** - Guía rápida de inicio (instalación + conceptos clave)
+- **[LEARNING_PATH.md](LEARNING_PATH.md)** - Ruta de aprendizaje completa paso a paso con ejercicios
 
 ### 📚 Contenido del Curso
 1. [Fundamentos Avanzados](#1-fundamentos-avanzados-del-lenguaje)
@@ -74,12 +73,13 @@ go-mastery-lab/
 
 ## 🚀 Cómo Usar Este Repositorio
 
-### ⭐ **EMPIEZA AQUÍ**: Lee primero `LEARNING_PATH.md` para el orden recomendado
+### ⭐ **EMPIEZA AQUÍ**: Lee primero `QUICK_START.md` para comenzar rápidamente
 
-1. **Sigue la ruta de aprendizaje**: `LEARNING_PATH.md` tiene el orden paso a paso
-2. **Lee los comentarios**: Cada archivo tiene explicaciones detalladas
-3. **Ejecuta los ejemplos**: `go run` en cada directorio
-4. **Experimenta**: Modifica el código y observa los resultados
+1. **Inicio rápido**: `QUICK_START.md` - Instalación y primeros pasos en 10 minutos
+2. **Ruta completa**: `LEARNING_PATH.md` - Guía detallada paso a paso con ejercicios
+3. **Lee los comentarios**: Cada archivo tiene explicaciones detalladas
+4. **Ejecuta los ejemplos**: `go run` en cada directorio
+5. **Experimenta**: Modifica el código y observa los resultados
 
 ### Ejecutar Ejemplos
 
@@ -110,7 +110,7 @@ make bench
 
 ## 📚 Requisitos Previos
 
-- Go 1.21 o superior ([Guía de Instalación](INSTALLATION.md))
+- Go 1.21 o superior (ver [QUICK_START.md](QUICK_START.md) para instalación)
 - Conocimiento básico de programación
 - Familiaridad con conceptos de programación orientada a objetos (viniendo de Java)
 

@@ -36,3 +36,6 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+
+# Blog posts (personal blog, not for repository)
+blog/

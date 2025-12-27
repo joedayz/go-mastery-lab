@@ -4,14 +4,13 @@ Esta guía te lleva paso a paso por todo el contenido del proyecto en el orden �
 
 ## 📋 Fase 0: Preparación (15 minutos)
 
-### 1. Instalar Go
-- ✅ Lee: `INSTALLATION.md`
+### 1. Instalar Go y Entender Conceptos Clave
+- ✅ Lee: `QUICK_START.md` (instalación rápida + conceptos clave)
 - ✅ Verifica: `go version`
 - ✅ Prueba: Crea un programa "Hello World"
 
 ### 2. Entender la Estructura del Proyecto
 - ✅ Lee: `README.md` (visión general)
-- ✅ Lee: `GETTING_STARTED.md` (conceptos clave si vienes de Java)
 
 ---
 
@@ -309,7 +308,7 @@ Esta guía te lleva paso a paso por todo el contenido del proyecto en el orden �
 
 Si necesitas aprender rápido, sigue este orden mínimo:
 
-1. ✅ `INSTALLATION.md` - Instalar Go
+1. ✅ `QUICK_START.md` - Instalar Go y conceptos clave
 2. ✅ `fundamentals/types_structs` - Structs básicos
 3. ✅ `fundamentals/interfaces` - Interfaces
 4. ✅ `fundamentals/collections` - Slices y maps
